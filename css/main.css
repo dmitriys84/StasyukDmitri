@@ -1,32 +1,104 @@
 body {
   margin: 0;
+  font-family: "Open Sans";
+  background: url(../img/fon.jpg);
 }
 .header {
+  width: 1920px;
+  height: 147px;
+  background-color: #dedede80;
 }
 .container {
-  width: 1334px;
-  height: 147px;
-  align-items: center;
-  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
-.logo {
-  margin-left: 293px;
+.header__inner {
+  display: flex;
+  justify-content: flex-start;
 }
 .nav {
-  width: 457px;
-  height: 25px;
-  margin-left: 732px;
-  align-items: center;
-}
-.navLink {
-  font-family: Open Sans;
   font-size: 18px;
-  justify-content: space-between;
+  font-family: Open Sans;
+  margin-top: 61px;
+  margin-left: 200px;
+}
+.navlink {
+  display: inline-block;
+  vertical-align: top;
   text-decoration: none;
   margin-right: 50px;
+  color: #1f1e1e;
 }
-.containerMain {
-  margin-top: 375px;
-  align-content: center;
+.log {
+  font-size: 18px;
+  font-family: Open Sans;
+  margin-top: 61px;
+  margin-left: 200px;
+}
+.login {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1f1e1e;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+  color: #1f1e1e;
+}
+
+.main {
+  width: 1920px;
+  height: 1000px;
+  margin-top: 228px;
+}
+.citate__up {
+  width: 990px;
+  height: 639px;
+  top: 247px;
+  left: 465px;
+  position: absolute;
+}
+.citText {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 45px;
+  color: #1f1e1e;
+}
+.main__image {
+  width: 1920px;
+  height: 325px;
+  top: 475px;
+}
+.button {
+  width: 700px;
+  height: 128px;
+  margin-top: 286px;
+  margin-left: 648px;
+  text-align: center;
+}
+.iwant {
+  font-family: Lora;
+  font-size: 22px;
+  font-weight: 400;
   align-items: center;
+  left: 648px;
+}
+.btrd {
+  width: 272px;
+  height: 52px;
+  background-color: #bc3324;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 146px;
+  padding: 15px 40px 15px 10px;
+}
+.btgr {
+  width: 245px;
+  height: 52px;
+  color: #1f1e1e;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 40px 15px 10px;
 }
