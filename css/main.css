@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+.header {
+}
+.container {
+  width: 1334px;
+  height: 147px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 293px;
+}
+.nav {
+  width: 457px;
+  height: 25px;
+  margin-left: 732px;
+  align-items: center;
+}
+.navLink {
+  font-family: Open Sans;
+  font-size: 18px;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.containerMain {
+  margin-top: 375px;
+  align-content: center;
+  align-items: center;
+}
